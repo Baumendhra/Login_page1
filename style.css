@@ -1,0 +1,90 @@
+/* Common Style */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(120deg, #e0f7fa, #e1bee7);
+    margin: 0;
+    padding: 0;
+}
+
+/* Form Container */
+.form-container {
+    width: 90%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 25px 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    color: #6a1b9a;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+    font-size: 15px;
+    margin-top: 12px;
+    display: block;
+    color: #333;
+}
+
+/* Inputs, Textareas, Select */
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+/* Textarea resizing */
+textarea {
+    resize: vertical;
+}
+
+/* Buttons */
+button {
+    width: 48%;
+    padding: 10px;
+    margin: 15px 1%;
+    background-color: #7b1fa2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4a0072;
+}
+
+/* Forgot Password */
+.forgot-password {
+    text-align: right;
+    margin: 5px 0;
+}
+
+.forgot-password a {
+    color: #7b1fa2;
+    text-decoration: none;
+}
+
+/* Sign Up Link */
+.sign-up {
+    text-align: center;
+    margin-top: 20px;
+    color: #444;
+}
+
+.sign-up a {
+    color: #6a1b9a;
+    text-decoration: none;
+    font-weight: bold;
+}
